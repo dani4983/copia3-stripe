@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.box1 {
+    width: 90%;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 20px 10px;
+    background: white;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.box1 .avatar {
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+header{
+    height: 90vh;
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -ms-transform: skewY(-9deg);
+    -webkit-transform: skewY(-9deg);
+    transform: skewY(-9deg);
+}
+.derecho{
+    -ms-transform: skewY(9deg);
+    -webkit-transform: skewY(9deg);
+    transform: skewY(9deg);
+}
+
+.container-1{
+    width: 80%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 10%;
+   
+  }
+
+  .container-1 input#search{
+    width: 80%;
+    height: 27px;
+    font-size: 10pt;
+    float: left;
+    background: #d9dde0;
+    color: #4f5b66;
+    padding-left: 27px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 50px;
+   }
+
+.container-1 .icon{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    margin-left: 3px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+
+  p{
+      font-size: 12px;
+  }
+
+  .menu a{
+      color: #4f5b66;
+      font-size: 16px
+  }
+
+  .menu li{
+      margin-bottom: 9px;
+  }
+
+  .card{
+      top: -30px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .contactos{
+      margin-top: 100px;
+  }
+
+  footer{
+      position: relative;
+      background: #f8f9fd;
+      -ms-transform: skewY(-9deg);
+      -webkit-transform: skewY(-9deg);
+      transform: skewY(-9deg);
+      padding: 50px 50px 200px 5px;
+  }
+   footer a{
+       font-size: 12px;
+       color: #8999ac;
+       margin-right: 9px;
+       margin-bottom: 9px;
+   }
+
+   footer h6{
+       font-size: 12px;
+       margin-left: 0;
+       margin-right: 15px;
+       font-weight: bold;
+       color: #8999ac;
+   }
