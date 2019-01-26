@@ -142,4 +142,10 @@ header{
            display: block;
        }
    }
+   
+   @media(max-width: 576px){
+       .box1{
+           display: none;
+       }
+}
 
