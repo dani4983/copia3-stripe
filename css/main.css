@@ -115,3 +115,31 @@ header{
        font-weight: bold;
        color: #8999ac;
    }
+
+   .width-box{
+       width: 100%;
+   }
+   .width-img{
+       width: 27%;
+   }
+
+   .card-body{
+       display: inline-flex;
+   }
+   
+
+   @media(max-width: 768px){
+       .width-img{
+           width: 40%;
+       }
+       .font1{
+        font-size: 27px
+       }
+       .font2{
+           font-size: 15px
+       }
+       .card-body{
+           display: block;
+       }
+   }
+
